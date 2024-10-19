@@ -104,3 +104,47 @@ height: 500px;
   z-index: -1;
   
 }
+
+.nav-bar {
+  margin-top: 65px;
+  margin-left: 160px;
+  display: flex;
+  gap: 60px;
+}
+
+.nav-bar__links {
+  
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #22D4FD;
+}
+
+.sobremim__conteudo__titulo {
+  font-size: 36px;
+  font-family: "Krona one", sans-serif;
+  margin-bottom: 16px;
+}
+
+.sobremim__conteudo__texto {
+  padding-right: 30px;
+  font-size: 24px;
+font-family: Montserrat;
+font-weight: 400;
+}
+
+
+footer {
+background-color: #22D4FD;
+height: 80px;
+margin-top: 60px;
+
+.footer_texto {
+  padding: 30px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+color: black;
+}
