@@ -4,7 +4,10 @@
   --cor-secundaria: #f6f6f6;
   --cor-ternaria: #22D4FD;
   --cor-hover: #272727;
+  --main-font: "Krona one", sans-serif;
+  --heading-font: "Montserrat", sans-serif;
 }
+
 
 * {
   margin: 0;
@@ -33,17 +36,17 @@ flex-direction: column;
 
 .apresentacao__conteudo__titulo {
   font-size: 36px;
-  font-family: "Krona one", sans-serif;
+  font-family: var(--main-font);
   margin-bottom: 16px;
 }
 .apresentacao__conteudo__texto {
 font-size: 24px;
-font-family: Montserrat;
+font-family: var(--heading-font);
 font-weight: 400;
 }
 
 .titulo-links {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--heading-font);
   font-size: 18px;
 }
 .apresentacao__links {
@@ -60,7 +63,7 @@ font-weight: 400;
 
 
 .apresentacao__links__subtitulo {
-  font-family: "Montserrat";
+  font-family: var(--heading-font);
   font-weight: 400;
 
 }
@@ -73,7 +76,7 @@ font-weight: 400;
   text-align: center;
   text-decoration: none;
   border-radius: 16px;
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--heading-font);
   font-weight: 500;
 }
 
@@ -128,7 +131,7 @@ height: 500px;
 .nav-bar__links {
   
   text-decoration: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--heading-font);
   font-weight: 600;
   font-size: 24px;
   color: var(--cor-ternaria);
@@ -136,14 +139,14 @@ height: 500px;
 
 .sobremim__conteudo__titulo {
   font-size: 36px;
-  font-family: "Krona one", sans-serif;
+  font-family: var(--main-font);
   margin-bottom: 16px;
 }
 
 .sobremim__conteudo__texto {
   padding-right: 30px;
   font-size: 24px;
-font-family: Montserrat;
+font-family: var(--heading-font);
 font-weight: 400;
 }
 
@@ -156,7 +159,7 @@ margin-top: 60px;
 .footer_texto {
   padding: 30px;
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family:var(--heading-font);
   font-weight: 400;
   font-size: 24px;
 color: var(--cor-primaria);
